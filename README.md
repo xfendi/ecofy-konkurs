@@ -1,67 +1,59 @@
-# Ecofy Mobile App
+# Aplikacja mobilna Ecofy
 
-**Ecofy** is a mobile application designed to help users discover and create local eco-initiatives. From park cleanups and tree planting to educational workshops, Ecofy enables everyone to join in and contribute to sustainable community building.
+**Ecofy** to aplikacja mobilna zaprojektowana, aby pomóc użytkownikom odkrywać i tworzyć lokalne inicjatywy ekologiczne. Od sprzątania parków i sadzenia drzew po warsztaty edukacyjne, Ecofy umożliwia każdemu dołączenie do działań na rzecz zrównoważonego budowania społeczności.
 
-## Features
+## Funkcje
 
-- **Eco Initiative Map**: Discover local eco-events like park cleanups, tree planting, workshops, and more.
-- **Create Initiatives**: Users can organize their own events to promote eco-action in their communities.
-- **Notifications**: Stay updated on new initiatives with real-time notifications.
-- **User Profile**: Customize your profile and track your eco-contributions.
-- **Eco Community**: Engage with like-minded individuals through posts and discussions in the community section.
+- **Mapa inicjatyw ekologicznych**: Odkrywaj lokalne wydarzenia ekologiczne, takie jak sprzątanie parków, sadzenie drzew, warsztaty i inne.
+- **Twórz inicjatywy**: Użytkownicy mogą organizować własne wydarzenia, aby promować działania ekologiczne w swoich społecznościach.
+- **Powiadomienia**: Bądź na bieżąco z nowymi inicjatywami dzięki powiadomieniom w czasie rzeczywistym.
+- **Profil użytkownika**: Personalizuj swój profil i śledź swoje wkłady ekologiczne.
+- **Społeczność ekologiczna**: Angażuj się w dyskusje i posty w sekcji społecznościowej z osobami o podobnych zainteresowaniach.
 
-## App Structure
+## Struktura aplikacji
 
-- `app/` - Main app screens and layouts:
-  - `(auth)` - Screens for user login and registration
-  - `(tabs)` - Main app screens (Map, Profile) visible after login
-- `components/` - Reusable UI components
-- `assets/` - Media and graphics files
+- `app/` - Główne ekrany i układy aplikacji:
+  - `(auth)` - Ekrany logowania i rejestracji użytkownika
+  - `(tabs)` - Główne ekrany aplikacji (Mapa, Profil), widoczne po zalogowaniu
+- `components/` - Reużywalne komponenty UI
+- `assets/` - Pliki multimedialne i graficzne
 
-## Technologies Used
+## Technologie
 
-- **React Native** + **Expo**: The main framework for mobile development
-- **Firebase**: Backend for data storage, notifications, authentication, and community posts
-- **React Navigation**: For navigating between screens
-- **Styled Components**: Used for styling the app
-- **Map API**: For displaying eco-initiatives on a map
+- **React Native** + **Expo**: Główne frameworki do rozwoju aplikacji mobilnych
+- **Firebase**: Backend do przechowywania danych, powiadomień, autentykacji i postów społecznościowych
+- **React Navigation**: Do nawigacji między ekranami
+- **Styled Components**: Używane do stylizacji aplikacji
+- **Map API**: Do wyświetlania inicjatyw ekologicznych na mapie
 
-## Installation
+## Instalacja
 
-To install and run the Ecofy app locally, follow these steps:
+Aby zainstalować i uruchomić aplikację Ecofy lokalnie, wykonaj następujące kroki:
 
-1. Clone the repository:
+1. Sklonuj repozytorium:
    ```bash
    git clone https://github.com/xfendi/ecofy-mobile.git
    ```
 
-2. Navigate into the project folder:
+2. Przejdź do folderu projektu:
    ```bash
    cd ecofy-mobile
    ```
 
-3. Install dependencies:
+3. Zainstaluj zależności:
    ```bash
    npm install
    ```
 
-4. Start the app:
+4. Uruchom aplikację:
    ```bash
    npm start
    ```
 
-5. Scan the QR code with the Expo Go app to open the app on your device.
+5. Skanuj kod QR za pomocą aplikacji Expo Go, aby otworzyć aplikację na swoim urządzeniu.
 
-## Download
+## Licencja
 
-You can download the app directly from the **Google Play Store**: [Download Ecofy on Google Play]()
+Ecofy jest oprogramowaniem **open-source** licencjonowanym na podstawie **GNU General Public License v3.0 (GPL-3.0)**. Oznacza to, że możesz swobodnie używać, modyfikować i dystrybuować aplikację, pod warunkiem że wszelkie modyfikacje lub dzieła pochodne będą również licencjonowane na tej samej licencji **GPL-3.0**.
 
-## Website
-
-Check out the official website for more information and updates: [Ecofy Website]()
-
-## License
-
-Ecofy is **open-source** software licensed under the **GNU General Public License v3.0 (GPL-3.0)**. This means you are free to use, modify, and distribute the app, as long as any modifications or derivative works are also licensed under the same **GPL-3.0** license.
-
-For more details, you can view the full license text in the [LICENSE](LICENSE)
+Aby zapoznać się ze szczegółami, możesz przeczytać pełny tekst licencji w pliku [LICENSE](LICENSE)
